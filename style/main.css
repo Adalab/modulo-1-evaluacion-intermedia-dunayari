@@ -1,5 +1,5 @@
 * {
-  background-color: #3CDBC0;
+  
   font-family: 'Rubik', sans-serif;
 }
 
@@ -9,22 +9,45 @@ header {
   flex-direction: column;
   text-align: center;
   position: fixed;
-  color: #4a4a4a;
-  font-size: 16px;
   width: 100%;
+  background-color: white;
 }
 
 .logo {
   width: 155px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+.nav {
+  padding-bottom: 13px;
 
-
+}
 .item1 {
   display: inline;
-  margin-top: 10px;
-  margin-bottom: 13px;
   margin: 20px;
+}
+.etiqueta {
+  
+  font-size: 16px;
+  color: #4a4a4a;
+  text-decoration: none;
+  
+}
+
+.main {
+  background-color:#3CDBC0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+  
+  
+}
+
+.title {
+  word-spacing: 100vw;
 }
