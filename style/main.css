@@ -1,10 +1,8 @@
 * {
-  
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-
-header {
+.header {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -22,32 +20,49 @@ header {
 }
 .nav {
   padding-bottom: 13px;
-
 }
+
 .item1 {
   display: inline;
-  margin: 20px;
+  text-transform: uppercase;
 }
 .etiqueta {
-  
   font-size: 16px;
   color: #4a4a4a;
   text-decoration: none;
-  
+  text-transform: uppercase;
+  padding: 10px 20px 13px 0;
 }
 
 .main {
-  background-color:#3CDBC0;
+  background-color: #3cdbc0;
   height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;
-  
-  
+  color: #ffffff;
 }
 
 .title {
   word-spacing: 100vw;
+  font-size: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    margin-left: 0;
+    padding: 20px 0 20px 30px;
+  }
+  .menu {
+    font-size: 16px;
+    padding: 40px 30px 40px 0;
+  }
+  .title {
+    font-size: 40px;
+  }
 }
